@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar a{
+    color: #3E3E3E;
+}
+
+.banner-title{
+    font-size: 60px;
+}
+
+.default-card{
+	transform: scale(1.1);
+	border-radius : 15px;
+}
+.section-title{
+	margin-bottom: 50px;
+}
+
+.carousel-caption{
+    margin-bottom: 50px;
+}
+.moment{
+    display: flex;
+    justify-content: center;
+}
+.main-con{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: none;
+}
+
+@media only screen and (max-width:668px){
+    .banner-title{
+        font-size: 14px;
+    }
+    main{
+        margin-top: 50px;
+    }
+    .carousel-caption{
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-item img{
+        height: 40vh;
+        
+    }
+
+    .navbar-brand{
+        font-size: 16px;
+    }
+    .happy-client{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .happy-client .card{
+        margin-bottom: 20px;
+    }
+    .default-card{
+        transform: scale(1);
+        
+    }
+    .card-section .card{
+        border: 1px solid blue;
+    }
+}
